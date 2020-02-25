@@ -5,9 +5,7 @@ compiler:
     - gcc
 
 jobs:
-    - linux
-  include:
-    - osx
+    include:
     - os: linux
       disk: bionic
     - os: linux
