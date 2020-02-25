@@ -7,7 +7,7 @@ compiler:
 jobs:
     include:
     - os: linux
-      disk: bionic
+      dist: bionic
     - os: linux
       dist: xenial
     - os: linux
